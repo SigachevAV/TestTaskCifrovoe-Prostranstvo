@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestTaskCifrovoe_Prostranstvo.Models
 {
-    class Child
+    public class Child
     {
         public Int32 Id { get; set; }
         public String FirstName { get; set; }

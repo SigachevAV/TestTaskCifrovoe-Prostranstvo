@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestTaskCifrovoe_Prostranstvo.Models
 {
-    enum Gender
+    public enum Gender
     {
         Male,
         Female

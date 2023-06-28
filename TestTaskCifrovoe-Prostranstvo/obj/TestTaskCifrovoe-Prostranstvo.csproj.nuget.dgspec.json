@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo.csproj": {}
+    "C:\\Users\\ton66\\Documents\\GitHub\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo.csproj": {}
   },
   "projects": {
-    "D:\\code\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo.csproj": {
+    "C:\\Users\\ton66\\Documents\\GitHub\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo.csproj",
+        "projectUniqueName": "C:\\Users\\ton66\\Documents\\GitHub\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo.csproj",
         "projectName": "TestTaskCifrovoe-Prostranstvo",
-        "projectPath": "D:\\code\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo.csproj",
+        "projectPath": "C:\\Users\\ton66\\Documents\\GitHub\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo.csproj",
         "packagesPath": "C:\\Users\\ton66\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo\\obj\\",
+        "outputPath": "C:\\Users\\ton66\\Documents\\GitHub\\TestTaskCifrovoe-Prostranstvo\\TestTaskCifrovoe-Prostranstvo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ton66\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
