@@ -62,39 +62,22 @@ namespace TestTaskCifrovoe_Prostranstvo
             return result;
         }
 
-        public new void BuildFirstName() 
-        {
-            this.person.FirstName = Faker.Name.First();
-        }
-        public new void BuildLastName() 
-        {
-            this.person.LastName= Faker.Name.Last();
-        }
-        public new void BuildGender() 
-        {
-            this.person.Gender = Faker.Enum.Random<Gender>();
-        }
-
         public new void BuildId()
         {
             this.person.Id = Faker.RandomNumber.Next(1, 10000);
         }
         public new void BuildBurthDate()
         {
-            this.person.BirthDate = BurthDateGeneration(18, 100);
+            this.person.BirthDate = BurthDateGeneration(18, 50);
         }
 
         public void BuildAge()
         {
-            try
+            if(this.person.BirthDate == null)
             {
-                this.person.Age = -1 * (int)(DateTimeOffset.UtcNow.ToUnixTimeSeconds() - this.person.BirthDate) / (int)(365 * 24 * 60 * 60);
+                throw new Exception("Неверный порядок");
             }
-            catch (Exception ex)
-            {
-
-                throw new Exception("неверный порядок вызова");
-            }
+            this.person.Age = (int)((Int64)(DateTimeOffset.UtcNow.ToUnixTimeSeconds() - this.person.BirthDate) / (Int64)(365 * 24 * 60 * 60));
         }
 
         public void BuildChildren()
@@ -124,15 +107,11 @@ namespace TestTaskCifrovoe_Prostranstvo
 
         public void BuildSequenceId()
         {
-            try
+            if (this.person.Id == null)
             {
-                this.person.SequenceId = this.person.Id;
+                throw new Exception("Неверный порядок");
             }
-            catch (Exception)
-            {
-
-                throw new Exception("Неверный порядок вызова");
-            }
+            this.person.SequenceId = this.person.Id;
         }
 
         public void BuildTransportId()
@@ -142,6 +121,9 @@ namespace TestTaskCifrovoe_Prostranstvo
 
         public new Person GetResult()
         {
+            this.person.FirstName = this.child.FirstName;
+            this.person.LastName = this.child.LastName;
+            this.person.Gender = this.child.Gender;
             Person result = this.person;
             this.person = new Person();
             return result;

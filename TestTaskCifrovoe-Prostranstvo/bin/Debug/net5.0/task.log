@@ -1,0 +1,30 @@
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PersonsGenerator] - Создаю данные
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PersonsGenerator] - Данные созданы
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Serialize] - Провожу сериализацию
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Serialize] - Сериализация завершена
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [ResolvePath] - Определяю путь
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [ResolvePath] - Путь определён
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Write] - Записываю
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Write] - Запись завершена
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Dispose] - Сбрасываю память
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Deserialize] - Чтение и десериализация
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Deserialize] - Чтение и десериализация завершена
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PrintCount] - Подсчёт статистики
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PrintCount] - Всего людей: 10000
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PrintCount] - Банковских карт: 9838
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PrintCount] - Средний возраст детей: 9
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PersonsGenerator] - Создаю данные
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PersonsGenerator] - Данные созданы
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Serialize] - Провожу сериализацию
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Serialize] - Сериализация завершена
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [ResolvePath] - Определяю путь
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [ResolvePath] - Путь определён
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Write] - Записываю
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Write] - Запись завершена
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Dispose] - Сбрасываю память
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Deserialize] - Чтение и десериализация
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [Deserialize] - Чтение и десериализация завершена
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PrintCount] - Подсчёт статистики
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PrintCount] - Всего людей: 10000
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PrintCount] - Банковских карт: 9832
+[INFO] [TestTaskCifrovoe_Prostranstvo.Task] [PrintCount] - Средний возраст детей: 9
